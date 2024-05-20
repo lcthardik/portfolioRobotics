@@ -3376,11 +3376,8 @@ input[type="button"].btn--primary:focus {
         color: white;
     }
     .s-header__nav ul li::before {
-        content: counter(ctr, decimal-leading-zero);
-        counter-increment: ctr;
         font-size: var(--text-xs);
         color: rgba(255, 255, 255, 0.18);
-        position: absolute;
         top: var(--vspace-0_5);
         left: 0;
     }
