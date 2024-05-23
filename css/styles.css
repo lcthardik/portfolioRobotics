@@ -4051,29 +4051,28 @@ button.btn--pill {
 }
 
 .folio-item__thumb::after {
-  z-index: 1;
-  content: "...";
+  content: "Show More";
   font-family: var(--font-2);
-  font-weight: 300;
-  font-size: 3rem;
-  color: white;
+  font-weight: 400; /* Increased font weight for better readability */
+  font-size: 2.5rem; /* Slightly reduced font size */
+  color: rgba(255, 255, 255, 0.9); /* Slightly reduced opacity for a softer look */
   display: block;
-  height: 32px;
-  width: 32px;
-  line-height: 32px;
-  margin-left: -16px;
-  margin-top: -16px;
+  height: auto;
+  width: 100%;
+  line-height: 1.2; /* Increased line height for better spacing */
+  margin-left: -50%;
+  margin-top: -12%; /* Adjusted vertical margin for better centering */
   text-align: center;
   opacity: 0;
   visibility: hidden;
-  -webkit-transform: scale(0.5);
-  transform: scale(0.5);
-  -webkit-transition: all, 0.5s cubic-bezier(0.215, 0.61, 0.355, 1);
-  transition: all, 0.5s cubic-bezier(0.215, 0.61, 0.355, 1);
+  transform: scale(0.8); /* Slightly increased scale for a smoother animation */
+  transition: all 0.5s cubic-bezier(0.215, 0.61, 0.355, 1);
   position: absolute;
   left: 50%;
   top: 50%;
 }
+
+
 
 .folio-item img {
   display: block;
