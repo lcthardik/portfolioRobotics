@@ -4181,6 +4181,26 @@ button.btn--pill {
   color: white;
 }
 
+.modal-popup__details_video {
+  background-color: rgba(0, 0, 0, 0.3);
+  font-size: var(--text-sm);
+  line-height: calc(var(--vspace-1_5) - 2px);
+  border: 1px solid rgba(255, 255, 255, 0.15);
+  color: white;
+  border-radius: var(--border-radius);
+  padding: 0 1.4rem;
+  position: absolute;
+  top: var(--vspace-1_25);
+  left: 13rem;
+}
+
+.modal-popup__details_video:hover,
+.modal-popup__details_video:focus {
+  background-color: var(--color-2);
+  border-color: var(--color-2);
+  color: white;
+}
+
 /* ===================================================================
  * # CTA
  *
