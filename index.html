@@ -73,7 +73,7 @@
               <a class="smoothscroll" href="#testimonials">Publications</a>
             </li>
             <li><a class="smoothscroll" href="#contact">Contact Me!</a></li>
-            <li><a class="smoothscroll" href="">Resume</a></li>
+            <li><a class="smoothscroll" href="https://lcthardik.github.io/portfolioRobotics/docs/Hardik_CV.pdf" target="_blank">Resume</a></li>
           </ul>
         </nav>
       </div>
@@ -188,7 +188,7 @@
               </p>
             </div>
             <div class="column w-1000-stack">
-              <a href="#0" class="btn btn--download">
+              <a href="https://lcthardik.github.io/portfolioRobotics/docs/Hardik_CV.pdf" target="_blank" class="btn btn--download" download>
                 <svg
                   xmlns="http://www.w3.org/2000/svg"
                   width="24"
@@ -448,13 +448,14 @@
         </div>
         <!-- end folio-item -->
 
+        
         <div class="column folio-item">
-          <a href="#modal-02" class="folio-item__thumb">
+          <a href="#modal-06" class="folio-item__thumb">
             <img
-              src="images/projects/underactuated.gif"
+              src="images/projects/linefoloowerwitharm.gif"
               srcset="
-                images/projects/underactuated.gif 1x,
-                images/projects/underactuated.gif 2x
+                images/projects/linefoloowerwitharm.gif 1x,
+                images/projects/linefoloowerwitharm.gif 2x
               "
               alt=""
             />
@@ -476,13 +477,14 @@
         </div>
         <!-- end folio-item -->
 
+        
         <div class="column folio-item">
-          <a href="#modal-04" class="folio-item__thumb">
+          <a href="#modal-08" class="folio-item__thumb">
             <img
-              src="images/projects/garuda.gif"
+              src="images/projects/landslide.gif"
               srcset="
-                images/projects/garuda.gif 1x,
-                images/projects/garuda.gif 2x
+                images/projects/landslide.gif 1x,
+                images/projects/landslide.gif 2x
               "
               alt=""
             />
@@ -505,12 +507,12 @@
         <!-- end folio-item -->
 
         <div class="column folio-item">
-          <a href="#modal-06" class="folio-item__thumb">
+          <a href="#modal-02" class="folio-item__thumb">
             <img
-              src="images/projects/linefoloowerwitharm.gif"
+              src="images/projects/underactuated.gif"
               srcset="
-                images/projects/linefoloowerwitharm.gif 1x,
-                images/projects/linefoloowerwitharm.gif 2x
+                images/projects/underactuated.gif 1x,
+                images/projects/underactuated.gif 2x
               "
               alt=""
             />
@@ -521,10 +523,10 @@
         <div class="column folio-item">
           <a href="#modal-07" class="folio-item__thumb">
             <img
-              src="images/projects/planeControl.gif"
+              src="images/projects/gesturedetection.gif"
               srcset="
-                images/projects/planeControl.gif 1x,
-                images/projects/planeControl.gif 2x
+                images/projects/gesturedetection.gif 1x,
+                images/projects/gesturedetection.gif 2x
               "
               alt=""
             />
@@ -533,12 +535,12 @@
         <!-- end folio-item -->
 
         <div class="column folio-item">
-          <a href="#modal-08" class="folio-item__thumb">
+          <a href="#modal-04" class="folio-item__thumb">
             <img
-              src="images/projects/planeControl.gif"
+              src="images/projects/garuda.gif"
               srcset="
-                images/projects/planeControl.gif 1x,
-                images/projects/planeControl.gif 2x
+                images/projects/garuda.gif 1x,
+                images/projects/garuda.gif 2x
               "
               alt=""
             />
@@ -781,23 +783,35 @@
 
       <div id="modal-07" hidden>
         <div class="modal-popup">
-          <img src="images/portfolio/gallery/g-rucksack.jpg" alt="" />
+          <img src="images/projects/gesturedetection.png" alt="" />
 
           <div class="modal-popup__desc">
-            <h5>Rucksack</h5>
+            <h5>
+              Analysis of emotions using Hand gestures and facial expressions
+            </h5>
             <p>
-              Odio soluta enim quos sit asperiores rerum rerum repudiandae cum.
-              Vel voluptatem alias qui assumenda iure et expedita voluptatem.
-              Ratione officiis quae.
+              This project applies machine learning to Human-Robot Interaction
+              (HRI), focusing on facial expression and hand gesture recognition.
+              Two convolutional neural networks were trained: one to recognize
+              facial expressions (happy, sad, neutral, surprised, angry) using
+              the FER-2013 dataset, and another for hand gestures (stop, okay,
+              thumbs up, peace). The facial expression model had five
+              convolutional layers, while the hand gesture model had three. The
+              live video feeds were fed into the network to identify the
+              emotions and hand gestures.
             </p>
             <ul class="modal-popup__cat">
-              <li>Branding</li>
-              <li>Product Design</li>
+              <li>Image Processing</li>
+              <li>Human-Robot Interaction</li>
+              <li>Neural Networks</li>
             </ul>
           </div>
 
-          <a href="https://www.behance.net/" class="modal-popup__details"
-            >Project link</a
+          <a
+            href="https://lcthardik.github.io/portfolioRobotics/docs/ME780_Report.pdf"
+            class="modal-popup__details"
+            target="_blank"
+            >Report Link</a
           >
         </div>
       </div>
@@ -805,22 +819,36 @@
 
       <div id="modal-08" hidden>
         <div class="modal-popup">
-          <img src="images/portfolio/gallery/g-sanddunes.jpg" alt="" />
+          <img src="images/projects/landslide.png" alt="" />
 
           <div class="modal-popup__desc">
-            <h5>Sand Dunes</h5>
+            <h5>Land Slide Detection using Wireless Sensor Network</h5>
             <p>
-              Proin gravida nibh vel velit auctor aliquet. Aenean sollicitudin,
-              lorem quis bibendum auctor, nisi elit consequat ipsum, nec
-              sagittis sem nibh id elit.
+              The project consists of a sensor node equipped with sensors for
+              recording land movement and soil moisture. This data is utilized
+              to detect and predict the possibility of landslides in hilly
+              areas. It uses GPRS connectivity to transfer data to a server. The
+              data can then be viewed graphically to monitor and detect
+              potential landslides.
             </p>
             <ul class="modal-popup__cat">
-              <li>Web Design</li>
+              <li>Embedded Systems</li>
+              <li>Circuit Design</li>
+              <li>Data Analysis</li>
             </ul>
           </div>
 
-          <a href="https://www.behance.net/" class="modal-popup__details"
-            >Project link</a
+          <a
+            href="https://github.com/lcthardik/landslide_detection_using_WSN.git"
+            class="modal-popup__details"
+            target="_blank"
+            >Github</a
+          >
+          <a
+            href="https://www.youtube.com/watch?v=QGzigIH8xJo"
+            class="modal-popup__details_video"
+            target="_blank"
+            >Video link</a
           >
         </div>
       </div>
